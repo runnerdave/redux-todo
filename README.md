@@ -2,18 +2,8 @@
 https://egghead.io/courses/getting-started-with-redux
 
 ## TODO:
-breaks in lesson 20 with the following error:
-
-````TypeError: Cannot read property 'map' of undefined
-TodoList
-src/App.js:107
-  104 |   onTodoClick
-  105 | }) => (
-  106 |   <ul>
-> 107 |       {todos.map(todo => 
-  108 |       <Todo
-  109 |         key={todo.id}
-  110 |         {...todo}```` 
+map the files to the proper folders and make all the exports, use this codepen as a guide:
+https://codepen.io/runnerdave/pen/bYWBWr
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
