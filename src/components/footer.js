@@ -1,3 +1,6 @@
+import React from 'react';
+import FilterLink from './filter-link';
+
 const Footer = () => (
   <p>
     Show:
@@ -21,3 +24,5 @@ const Footer = () => (
     </FilterLink>
   </p>
 );
+
+export default Footer;

@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Link = (({
   active,
   children,
@@ -18,3 +20,5 @@ const Link = (({
     </a>
   );
 });
+
+export default Link;

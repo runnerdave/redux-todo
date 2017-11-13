@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Todo = ({
   onClick,
   completed,
@@ -14,3 +16,5 @@ const Todo = ({
     {text}
   </li>
 );
+
+export default Todo;
