@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import Link from './link';
+import Link from '../components/link';
 import setVisibilityFilter from '../reducers/set-visibility-filter';
 
 const mapStateToLinkProps = (state,
