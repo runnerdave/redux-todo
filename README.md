@@ -2,10 +2,10 @@
 https://egghead.io/courses/getting-started-with-redux
 
 ## TODO:
-map the files to the proper folders and make all the exports, use this codepen as a guide:
+use this codepen as a guide:
 https://codepen.io/runnerdave/pen/bYWBWr
 
-test
+files need to be mapped better, but it is close, unfortunately still does not run
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
