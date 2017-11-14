@@ -4,3 +4,5 @@ const setVisibilityFilter = (filter) => {
     filter: filter
   };
 };
+
+export default setVisibilityFilter;

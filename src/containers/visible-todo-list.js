@@ -15,17 +15,20 @@ const getVisibleTodos = (todos,
             return todos.filter(
                 t => !t.completed
             );
+        default:
+            return todos;
     }
-}
+};
 
 const mapStateProps = (state) => {
+    const todos = getVisibleTodos(
+        state.todos,
+        state.visibilityFilter
+    );
     return {
-        todos: getVisibleTodos(
-            state.todos,
-            state.visibilityFilter
-        )
+        todos,
     };
-}
+};
 
 const mapDispatchProps = (dispatch) => {
     return {

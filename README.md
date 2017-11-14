@@ -1,11 +1,12 @@
 # Dan Abramov's course on Redux
 https://egghead.io/courses/getting-started-with-redux
 
-## TODO:
-use this codepen as a guide:
+used this codepen as a guide:
 https://codepen.io/runnerdave/pen/bYWBWr
 
-files need to be mapped better, but it is close, unfortunately still does not run
+## TODO:
+
+some of the containers have presentation logic, they should not
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

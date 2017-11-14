@@ -6,3 +6,5 @@ const addTodo = (text) => {
     text
   };
 };
+
+export default addTodo;

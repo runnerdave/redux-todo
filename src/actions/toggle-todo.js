@@ -4,3 +4,5 @@ const toggleTodo = (id) => {
         id
       };
 };
+
+export default toggleTodo;

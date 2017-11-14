@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import Link from '../components/link';
-import setVisibilityFilter from '../reducers/set-visibility-filter';
+import setVisibilityFilter from '../actions/set-visibility-filter';
 
 const mapStateToLinkProps = (state,
                              ownProps) => {
@@ -19,7 +19,7 @@ const mapDispatchToLinkProps = (dispatch,
             );
         }
     };
-}
+};
 
 const FilterLink = connect(
     mapStateToLinkProps,
